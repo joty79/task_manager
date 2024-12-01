@@ -22,7 +22,7 @@
 - [Git](https://git-scm.com/downloads)
 - [Node](https://nodejs.org/en) κατεβάστε την LTS version
 
-### 2️⃣ Εγκατάσταση Laravel
+### Εγκατάσταση Laravel
 
 Ελένχουμε τα path του composer και του node καθώς και της PHP στο environment variables.
 

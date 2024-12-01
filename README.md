@@ -19,7 +19,6 @@
 - [XAMPP](https://www.apachefriends.org/download.html)
 - [Composer](https://getcomposer.org/download/)
 - [Git](https://git-scm.com/downloads)
-- [node](https://nodejs.org/en) κατεβάστε την LTS version
 
 ### PHP Extensions
 Βεβαιωθείτε ότι οι απαραίτητες PHP extensions είναι ενεργοποιημένες στο `php.ini`: 
@@ -30,39 +29,35 @@
 και τις ενεργοποιούμε βγάζοντας το σημείο μπροστά από το ;
 Μέσα στο  Control Panel του XAMPP, to php.ini file βρίσκεται εύκολα αφου κάνουμε κλικ στο config του apache.
 
-
 ### 2️⃣ Clone του Repository
 
-# Ανοίξτε το terminal
-# Πλοήγηση στον φάκελο htdocs
+@Πλοήγηση στον φάκελο htdocs
 
-cd C:\xampp\htdocs
+ ```cd C:\xampp\htdocs```
 
-# Clone του repository
+Clone του repository
 
-git clone [your-github-repository-url]
-
+```git clone [your-github-repository-url]```
 
 ### 3️⃣ Εγκατάσταση Dependencies
 
-# Είσοδος στον φάκελο του project
+ Είσοδος στον φάκελο του project
 
-cd your-project-name
+```cd your-project-name```
 
-# Εγκατάσταση PHP dependencies
+Εγκατάσταση PHP dependencies
 
-composer install
-
+```composer install```
 
 ### 4️⃣ Ρύθμιση Environment
 
-# Δημιουργία .env αρχείου
+Δημιουργία .env αρχείου
 
-cp .env.example .env
+```cp .env.example .env```
 
-# Δημιουργία application key
+Δημιουργία application key
 
-php artisan key:generate
+```php artisan key:generate```
 
 ### 5️⃣ Ρύθμιση Database
 
@@ -70,40 +65,28 @@ php artisan key:generate
 2. Δημιουργήστε νέα database
 3. Ρυθμίστε το .env αρχείο:
 
+```
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=root
+DB_HOST=127.0.0.1  
+DB_PORT=3306  
+DB_DATABASE=your_database_name  
+DB_USERNAME=root  
 DB_PASSWORD=
-
+```
 
 ### 6️⃣ Database Migration
 
-php artisan migrate
-
+```php artisan migrate```
 
 ### 7️⃣ Storage Link
 
-php artisan storage:link
-
+```php artisan storage:link```
 
 ### 8️⃣ Εκκίνηση του Project
 
-
-
 #### Μέθοδος 1: Μέσω XAMPP
 
-1. Πρώτα, βεβαιωθείτε ότι έχετε εγκαταστήσει τα Node.js dependencies τρέχοντας:
+1. Εκκινήστε Apache και MySQL από το XAMPP Control Panel
+2. Επισκεφθείτε: `http://localhost/your-project-name/public`
 
-npm install
-
-2. Στη συνέχεια, για development περιβάλλον, τρέξτε:
-
-npm run dev
-
-3. Εκκινήστε Apache και MySQL από το XAMPP Control Panel
-4. Επισκεφθείτε: `http://localhost/your-project-name/public`
-
-
-Αυτό το README.md παρέχει μια καθαρή και οργανωμένη δομή των οδηγιών με emojis για καλύτερη αναγνωσιμότητα. 
+Αυτό το README.md παρέχει μια καθαρή και οργανωμένη δομή των οδηγιών με emojis για καλύτερη αναγνωσιμότητα.

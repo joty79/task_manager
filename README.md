@@ -24,9 +24,9 @@
 
 ### 2️⃣ Εγκατάσταση Laravel
 
-Ελένχουμε τα path του composer και του node καθως και της PHP στο environment variables.
+Ελένχουμε τα path του composer και του node καθώς και της PHP στο environment variables.
 
-π.χ. στο part session του environment variables πρεπει να δουμε τα παρακατω paths:
+π.χ. στο PATH session του environment variables πρέπει να δούμε τα παρακέτω paths:
 
 ```
 C:\xampp\php

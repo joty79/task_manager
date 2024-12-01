@@ -39,7 +39,7 @@ C:\Program Files\nodejs
 C:\Users\<username>\AppData\Roaming\Composer
 ```
 
-### Εγκαταστήστε το Laravel με την παρακατω εντολη:
+Τέλος εγκαταστήστε την Laravel με την παρακατω εντολη:
 
 ```composer global require laravel/installer```
 

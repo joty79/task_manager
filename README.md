@@ -26,7 +26,7 @@
 
 Ελένχουμε τα path του composer και του node καθώς και της PHP στο environment variables.
 
-π.χ. στο PATH session του environment variables πρέπει να δούμε τα παρακέτω paths:
+π.χ. στο PATH session του environment variables πρέπει να δούμε τα παρακάτω paths:
 
 ```
 C:\xampp\php

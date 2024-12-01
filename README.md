@@ -19,6 +19,7 @@
 - [XAMPP](https://www.apachefriends.org/download.html)
 - [Composer](https://getcomposer.org/download/)
 - [Git](https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en) κατεβάστε την LTS version
 
 ### PHP Extensions
 Βεβαιωθείτε ότι οι απαραίτητες PHP extensions είναι ενεργοποιημένες στο `php.ini`: 

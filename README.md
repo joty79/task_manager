@@ -9,6 +9,7 @@
 - Composer
 - Git
 - GitHub account
+- Laravel
 
 ## 🚀 Βήματα Εγκατάστασης
 
@@ -20,6 +21,27 @@
 - [Composer](https://getcomposer.org/download/)
 - [Git](https://git-scm.com/downloads)
 - [Node](https://nodejs.org/en) κατεβάστε την LTS version
+
+### 2️⃣ Εγκατάσταση Laravel
+
+Ελένχουμε τα path του composer και του node καθως και της PHP στο environment variables.
+
+π.χ. στο part session του environment variables πρεπει να δουμε τα παρακατω paths:
+
+```
+C:\xampp\php
+C:\Users\<username>\AppData\Roaming\npm
+C:\ProgramData\ComposerSetup\bin
+```
+και προαιρετικά 
+```
+C:\Program Files\nodejs
+C:\Users\<username>\AppData\Roaming\Composer
+```
+
+### Εγκαταστήστε το Laravel με την παρακατω εντολη:
+
+```composer global require laravel/installer```
 
 ### PHP Extensions
 Βεβαιωθείτε ότι οι απαραίτητες PHP extensions είναι ενεργοποιημένες στο `php.ini`: 

@@ -26,8 +26,10 @@
 - pdo_mysql
 - zip
 - fileinfo
+
 και τις ενεργοποιούμε βγάζοντας το σημείο μπροστά από το ;
-Μέσα στο  Control Panel του XAMPP, to php.ini file βρίσκεται εύκολα αφου κάνουμε κλικ στο config του apache.
+
+*Μέσα στο  Control Panel του XAMPP, to php.ini file βρίσκεται εύκολα αφου κάνουμε κλικ στο config του apache.*
 
 ### 2️⃣ Clone του Repository
 

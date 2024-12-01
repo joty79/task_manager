@@ -107,9 +107,8 @@ DB_PASSWORD=
 
 ```php artisan storage:link```
 
-### 8️⃣ Εκκίνηση του Project
+### 8️⃣ Εκκίνηση του Project μέσω XAMPP
 
-#### Μέθοδος 1: Μέσω XAMPP
 
 1. Εκκινήστε Apache και MySQL από το XAMPP Control Panel
 2. Επισκεφθείτε: `http://localhost/your-project-name/public`

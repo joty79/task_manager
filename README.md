@@ -32,6 +32,7 @@
 C:\xampp\php
 C:\Users\<username>\AppData\Roaming\npm
 C:\ProgramData\ComposerSetup\bin
+C:\Users\<Username>\AppData\Roaming\Composer\vendor\bin  //Για να εγκαταστήσουμε την Laravel Globally.
 ```
 και προαιρετικά 
 ```
